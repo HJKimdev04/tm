@@ -1,4 +1,5 @@
 .header {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +15,7 @@
     padding: 0;
 }  
 .nav a {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
     color: white;
     text-decoration: none;
 } 
