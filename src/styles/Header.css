@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    color: white;
+}
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}  
+.nav a {
+    color: white;
+    text-decoration: none;
+} 
+.nav a:hover {
+    text-decoration: underline;
+}
