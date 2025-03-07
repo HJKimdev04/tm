@@ -5,7 +5,7 @@ import '../styles/Header.css';
 const Header = () => {
   return (
     <header className="header">
-      <h1>스레드 소개팅</h1>
+      <h1>Thread Match</h1>
       <nav className="nav">
         <ul>
           <li>
