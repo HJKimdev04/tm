@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Login = ({onLogin}) => {
     const [username, setUsername] = useState("");
@@ -29,7 +30,7 @@ const Login = ({onLogin}) => {
                     onChange={(e) => setPassword(e.target.value)}
                 />
             </div>
-            <button type="submit">Login</button>
+            <button type="submit" className="btn btn-primary">Login</button>
         </form>
     );
 };
